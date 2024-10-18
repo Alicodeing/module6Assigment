@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    background-size: cover;
+}
+/* Main Section */
+.box{
+    width: 100%;
+    max-width: 650px;
+    background: white;
+    padding: 28px;
+    margin: 0 28px;
+    border-radius: 10px;
+}
+.title{
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 6px;
+    margin-bottom: 30px;
+    color: rgb(48, 27, 59);
+}
+.main-user-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.main-input-box:nth-child(2n){
+    justify-content: end;
+}
+.user-input-box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding-bottom: 15px;
+}
+.user-input-box label{
+    width: 40%;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 5px 0;
+}
+.user-input-box input{
+    width: 55%;
+    height: 35px;
+    border-radius: 7px;
+    outline: none;
+    border: 1px solid gray;
+    padding: 0 10px;
+}
+/* Gander Section */
+.gender-title{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.gender-category{
+    margin: 15px 0;
+}
+.gender-category label,
+.gender-category input,
+.form-submit-btn input{
+    cursor: pointer;
+
+}
+/* Button Section */
+
+/* .form-submit-btn{
+    margin-top: 30px;
+} */
+.cancel-btn{
+    font-size: 20px;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: rgb(20, 18, 18);
+    background-color: rgba(226, 15, 15, 0.7);
+}
+.submit-btn{
+    font-size: 20px;
+    padding: 10px 15px;
+    margin-left: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: rgb(20, 18, 18);
+    background: linear-gradient(to bottom left, #008cff, #e100ff);
+} 
+
